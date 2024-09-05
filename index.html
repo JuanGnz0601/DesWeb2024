@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <style>
+        h1 {text-align: center;}
+        div {display: inline-block; text-align: center} 
+        body {background: rgb(115, 183, 228); text-align: center;}
+        fieldset {display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 40%;
+            margin: 10px auto;
+        }
+        input[type="range"] {
+            width: 30%;
+        }
+        .contactos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    
+        .contactos img {
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hoja de vida</h1>
+        <center><img src="img/image.jpg" alt=""></center>
+        <h1>Información Personal</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <fieldset>
+                    <h4>Juan Camilo Gonzalez Zabaleta</h4>
+                    <h4>26 años</h4>
+                    <h4>jgonzalezzabaleta09@correo.unicordoba.edu.co</h4>
+                    <h4>Cel: 3106692789</h4>
+                    <h4>Las Bocas - Sahagun</h4>
+                </fieldset>
+                    <h1>Informacion Academica</h1>
+                <fieldset>
+                    <h4>Bachiller: Institucion educativa El viajano(El Viajano- Sahagun) </h4>
+                    <h4>Tecnico: Tecnicolabora Electronica y mantenimiento de computadores(FUNDEC- Planeta Rica)</h4>
+                </fieldset>
+                    <h1>Habilidades</h1>
+                <fieldset>
+                        <br>
+                        <input type="range" value="90" max="100">Mantenimiento de Computadores
+                        <br>
+                        <input type="range" value="80" max="100">Electronica
+                        <br>
+                        <input type="range" value="40" max="100"> Php
+                        <br>    
+                        <input type="range" value="50" max="100"> Html
+                </fieldset>
+                <h1>A que me dedico</h1>
+                <fieldset>
+                    <p>
+                        "Tengo un negocio dedicado a la sublimación y estampado de gorras, mugs y, principalmente, camisetas. 
+                        Trabajo de manera independiente y ofrezco productos personalizados tanto al por mayor como al detal. 
+                        Utilizo diversas técnicas de estampado para crear diseños únicos y adaptados a las necesidades de mis clientes."
+                    </p>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contactos">
+            <a href="https://www.instagram.com/kmylogonzalez_06/" target="_blank">
+                <img src="img/insta.png" alt="">
+            </a>
+            <a href="https://wa.link/xzabvl" target="_blank">
+                <img src="img/wasa.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
